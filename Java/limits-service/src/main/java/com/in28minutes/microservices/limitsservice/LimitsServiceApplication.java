@@ -9,5 +9,6 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 public class LimitsServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LimitsServiceApplication.class, args);
+		System.out.println("test");
 	}
 }

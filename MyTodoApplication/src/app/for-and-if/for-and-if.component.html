@@ -1,0 +1,19 @@
+
+<div class="mainPage">
+  <p>
+    for-and-if works!
+  </p>
+  <div>
+    <span *ngIf ="employeCount>1">{{errorMessage}}</span>
+    <h4>*ngfor with Array of elements</h4>
+    <ul>
+      <li *ngFor="let city of cities">{{city}}</li>
+    </ul>
+  </div>
+  <div>
+    <h4>*ngfor with Employees objects</h4>
+    <ul *ngFor="let emp of employees">
+      <li>{{emp.id}} {{emp.name}} {{emp.sal}}</li>
+    </ul>
+  </div>
+</div>
